@@ -8,28 +8,9 @@
 </head>
 <body>
 
-
-	<div class="tampil" id="tampil">
-		<div class="tampil-body">
-			<div>
-				<h1>Welcome to Alacrya Mobile</h1>
-				<p>Klik Mulai untuk menjalankan beberapa source</p>
-				<button onclick="putarmusik()">Mulai</button>
-			</div>
-		</div>
-	</div>
-
-	<video controls>
+	<video autoplay>
 		<source src="video.mp4" type="video/mp4">
 	</video>
-
-	<script>
-		var a = document.getElementByID('tampil')
-		function putarmusik() {
-			var audio = new Audio ("backsound.mp3")
-			audio.play();
-		}
-	</script>
 
 </body>
 </html>
